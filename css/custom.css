@@ -57,6 +57,13 @@
   padding-top: 30px;
   padding-bottom: 50px;
 }
-.aLink a{
-  color: blue !important;
+.aLink a {
+  color: blue;
+}
+.aLink a.fALink {
+  color: #272727;
+  transition: .3s;
+}
+.aLink a.fALink:hover {
+  color: rgb(139, 30, 30);
 }
