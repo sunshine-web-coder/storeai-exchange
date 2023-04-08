@@ -42,11 +42,11 @@
 .yellow_bg_p {
   color: #272727 !important;
 }
-.section_p{
-    padding-top: 100px !important;
+.section_p {
+  padding-top: 100px !important;
 }
 
-.exchange-container{
+.exchange-container {
   width: 100%;
   /* position: relative; */
   display: flex;
@@ -62,12 +62,11 @@
 }
 .aLink a.fALink {
   color: #272727;
-  transition: .3s;
+  transition: 0.3s;
 }
 .aLink a.fALink:hover {
   color: rgb(139, 30, 30);
 }
-
 
 /* token price fetch style */
 .token_container {
@@ -94,6 +93,12 @@
   gap: 15px;
   -webkit-box-pack: justify;
   justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .token_container .inner_token_container .top img {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 .token_container .inner_token_container .top .box-text {
